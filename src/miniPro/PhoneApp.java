@@ -70,11 +70,7 @@ public class PhoneApp {
 			} else if(num == 2) {
 				System.out.println("<2.등록>");
 				
-				
-				//이거 안 들어가면 왜그러는지 모르겠는데 이름 입력을 건너뜀
-				System.out.print("");
-				String d = sc.nextLine();
-				//
+				sc.nextLine();
 				
 				System.out.print(">이름: ");
 				String name = sc.nextLine();
@@ -125,10 +121,9 @@ public class PhoneApp {
 				//검색
 			} else if(num == 4) {
 				System.out.println("<4.검색>");
-				//이거 안 들어가면 왜그러는지 모르겠는데 이름 입력을 건너뜀
-				System.out.print("");
-				String f = sc.nextLine();
-				//
+				
+				sc.nextLine();
+				
 				System.out.print(">이름: ");
 				String searchName = sc.nextLine();
 				
